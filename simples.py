@@ -42,7 +42,7 @@ class Simples_Tela:
             if event == sg.WINDOW_CLOSED or event == 'Quit':
                 break
             # Saída de uma mensagem para a janela, no update, ele age como o print, preste atenção
-            self.window['-OUTPUT-'].update(voto(nasc) + " \n\nThanks for trying PySimpleGUI", text_color='black')
+            self.window['-OUTPUT-'].update(voto(nasc) + " \n\nObrigado por usar o PySimpleGUI", text_color='black')
 
         # Finalize removendo-se da tela
         self.window.close()
