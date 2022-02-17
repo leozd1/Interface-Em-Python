@@ -1,5 +1,9 @@
+ 
+ # Apenas uma interface simples para testar seus codigos.
+ # Mas atente que o codigo DEVEM estar dentro de uma função, SEMPRE.
+  
 import PySimpleGUI as sg
-    
+  
 
 def voto(ano): # Não fez diferença se ficava dentro ou fora da classe, so atenção na identação
     from datetime import date 
